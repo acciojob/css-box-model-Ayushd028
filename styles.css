@@ -1,22 +1,12 @@
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: white;
-}
-
-.outer-box {
+/* .outer-box {
     background-color: white;
     padding: 20px; 
     border: 1px solid black; 
-}
+} */
 
 .box {
     width: 300px; 
-    background-color: lightblue; 
+    background-color: rgb(173, 216, 230); 
     border: 15px solid blue; 
     padding: 50px; 
     text-align: center;
@@ -24,6 +14,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.box p {
+/* .box p {
     margin: 0; 
-}
+} */
