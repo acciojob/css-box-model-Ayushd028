@@ -1,8 +1,29 @@
 
-.content{
-	margin:20px;
-	border:15px solid blue;
-	padding: 50px;
-	width:300px;
-	background-color:lightblue;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.outer-box {
+    background-color: white;
+    padding: 20px; 
+    border: 1px solid black; 
+}
+
+.box {
+    width: 300px; 
+    background-color: lightblue; 
+    border: 15px solid blue; 
+    padding: 50px; 
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.box p {
+    margin: 0; 
 }
